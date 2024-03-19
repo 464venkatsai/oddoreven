@@ -9,15 +9,15 @@ function oddOrEven(){
         let num2 = Math.ceil(Math.random()*100)
         if (num1%2==0){
             score1+=1
-            player1[chance].style.backgroundColor = "green"
+            player1[chance].style.boxShadow = "inset  7px 7px 7px #d2d2d2, inset  -7px -7px 7px white"
         }else{
-            player1[chance].style.backgroundColor = "red"
+            player1[chance].style.boxShadow = "7px 7px 7px #bebebe,-7px -7px 7px #f4f4f4"
         }
         if (num2%2==0){
             score2+=1
-            player2[chance].style.backgroundColor = "green"
+            player2[chance].style.boxShadow = "inset  7px 7px 7px #d2d2d2, inset  -7px -7px 7px white"
         }else{
-            player2[chance].style.backgroundColor = "red"
+            player2[chance].style.boxShadow = "7px 7px 7px #bebebe,-7px -7px 7px #f4f4f4"
         }
     }
     else{
